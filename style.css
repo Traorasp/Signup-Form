@@ -47,4 +47,38 @@ position: absolute;
 
 .right-Field {
     flex: 5 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+fieldset {
+    border: none;
+    box-shadow: 0px 2px 8px gray;
+    padding: 1% 10% 3% 10%;
+    display: flex;
+    flex-wrap: wrap;
+    max-height: 25vh;
+    height: 25vh;
+    margin: 0;
+    flex-direction: column;
+    gap: 12%;
+    justify-content: space-evenly;
+}
+
+div > label {
+    display: block;
+    font-size: 0.9rem;
+}
+
+div > input {
+    width: 80%;
+    height: 80%;
+}
+
+button[type='submit'] {
+    height: 75%;
+    width: 25%;
+    margin-top: 0;
+    margin-left: 10%;
 }
