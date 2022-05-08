@@ -51,8 +51,8 @@ position: absolute;
 }
 
 fieldset {
+    position: relative;
     border: none;
-    box-shadow: 0px 5px 15px gray;
     padding: 1% 10% 5% 10%;
     display: flex;
     flex-wrap: wrap;
@@ -63,6 +63,7 @@ fieldset {
     gap: 10%;
     flex-direction: column;
     justify-content: end;
+    box-shadow: 0px 2px 8px rgb(229, 229, 229);
 }
 
 fieldset div {
