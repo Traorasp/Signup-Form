@@ -99,6 +99,12 @@ button[type='submit'] {
     font-size: 1.2rem;
 }
 
-legend {
-    width: 100px;
+.top-Right p {
+    margin: 12% 10% 0 10%;
+    font-size: 1.6rem;
+    width: 75%;
+}
+
+.top-Right :last-child {
+    margin: 2.5% 10% 0 10%;
 }
