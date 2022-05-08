@@ -81,10 +81,14 @@ div > input {
     height: 60%;
 }
 
+input[type="password"]: {
+    border-color: red;
+}
 
-
-
-
+input:focus {
+    border-color: lightskyblue;
+    box-shadow: 2px 2px 6px lightskyblue;
+}
 
 
 

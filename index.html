@@ -24,46 +24,46 @@
             <p>Or is it?</p>
         </div>
         <div>
-            <form action="" method="get">
+            <form action="" method="get" id="sign-up">
                 <fieldset>
                     <div>
                         <legend>Let's do this!</legend>
                     </div>
 
                     <div>
-                        <label for="">FIRST NAME</label>
-                        <input type="text" name="" id="">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name">
                     </div>
 
                     <div>
-                        <label for="">LAST NAME</label>
-                        <input type="text">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name">
                     </div>
 
                     <div>
-                        <label for="">EMAIL</label>
-                        <input type="email">
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
                     </div>
 
                     <div>
-                        <label for="">PHONE NUMBER</label>
-                        <input type="tel">
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" name="phone-number" id="phone-number">
                     </div>
 
                     <div>
-                        <label for="">PASSWORD</label>
-                        <input type="password">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" minlength="6" maxlength="18" required>
                     </div>
 
                     <div>
-                        <label for="">CONFIRM PASSWORD</label>
-                        <input type="password"></input>
+                        <label for="confirm-password">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm-password" id="confirm-password" minlength="6" maxlength="18" required></input>
                     </div>
                 </fieldset>
             </form>
         </div>
         <div class="buttom-Right">
-            <button type="submit">Create Account</button>
+            <button form="sign-up" type="submit">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
