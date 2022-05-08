@@ -93,7 +93,7 @@ input:focus {
     box-shadow: 2px 2px 8px rgb(81, 187, 253);
 }
 
-input[type="password"]:not(:placeholder-shown) {
+input[type="password"]:not(:placeholder-shown):invalid {
     border-color: red;
     background-color: pink;
     box-shadow: 2px 2px 8px red;
